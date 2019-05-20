@@ -1,0 +1,34 @@
+// Here you can add other styles
+
+@import "../../../node_modules/magic-check/css/magic-check.css";
+
+@import "../../views/product/Form";
+@import "../../views/product/List";
+
+@import "../../components/Input/InputPassword";
+
+.toggle-list {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  li > label {
+    width: 78px;
+    padding: 8px;
+  }
+}
+
+.styled-select select {
+        display: block;
+        width: 100%;
+        height: 35.5px;
+        padding: 0.5rem 1rem;
+        font-size: 0.875rem;
+        line-height: 1.25;
+        color: #607d8b;
+        background-color: #fff;
+        background-image: none;
+        background-clip: padding-box;
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        border-radius: 0;
+        transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}

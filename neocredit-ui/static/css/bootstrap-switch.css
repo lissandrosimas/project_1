@@ -1,0 +1,198 @@
+.bootstrap-switch-container input[type="radio"],
+.bootstrap-switch-container input[type="checkbox"] {
+  margin: 2px 0 0;
+  margin-top: 1px \9;
+  line-height: normal;
+}
+.bootstrap-switch {
+  display: inline-block;
+  cursor: pointer;
+  text-align: left;
+  overflow: hidden;
+  line-height: 8px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  width: 64px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2) inset;
+  border-radius: 20px;
+  -webkit-mask-image: -webkit-radial-gradient(circle, #ffffff, #000000);
+}
+.bootstrap-switch.bootstrap-switch-mini {
+  width: 32px;
+}
+.bootstrap-switch.bootstrap-switch-mini .bootstrap-switch-handle-on,
+.bootstrap-switch.bootstrap-switch-mini .bootstrap-switch-handle-off,
+.bootstrap-switch.bootstrap-switch-mini .bootstrap-switch-label {
+  padding-bottom: 4px;
+  padding-top: 4px;
+  font-size: 8px;
+  line-height: 8px;
+}
+.bootstrap-switch.bootstrap-switch-small {
+  width: 48px;
+}
+.bootstrap-switch.bootstrap-switch-small .bootstrap-switch-handle-on,
+.bootstrap-switch.bootstrap-switch-small .bootstrap-switch-handle-off,
+.bootstrap-switch.bootstrap-switch-small .bootstrap-switch-label {
+  padding-bottom: 3px;
+  padding-top: 3px;
+  font-size: 8px;
+  line-height: 18px;
+}
+.bootstrap-switch.bootstrap-switch-large {
+  width: 80px;
+}
+.bootstrap-switch.bootstrap-switch-large .bootstrap-switch-handle-on,
+.bootstrap-switch.bootstrap-switch-large .bootstrap-switch-handle-off,
+.bootstrap-switch.bootstrap-switch-large .bootstrap-switch-label {
+  padding-bottom: 9px;
+  padding-top: 9px;
+  font-size: 14px;
+  line-height: 22px;
+}
+.bootstrap-switch.bootstrap-switch-animate .bootstrap-switch-container {
+  -webkit-transition: margin-left 150ms;
+  -o-transition: margin-left 150ms;
+  transition: margin-left 150ms;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.bootstrap-switch.bootstrap-switch-on .bootstrap-switch-container {
+  margin-left: 0%;
+}
+.bootstrap-switch.bootstrap-switch-on .bootstrap-switch-label {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+.bootstrap-switch.bootstrap-switch-off .bootstrap-switch-container {
+  margin-left: -50%;
+}
+.bootstrap-switch.bootstrap-switch-off .bootstrap-switch-label {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+.bootstrap-switch.bootstrap-switch-disabled,
+.bootstrap-switch.bootstrap-switch-readonly {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  cursor: default !important;
+}
+.bootstrap-switch.bootstrap-switch-disabled .bootstrap-switch-label,
+.bootstrap-switch.bootstrap-switch-readonly .bootstrap-switch-label {
+  background: #fafafa;
+}
+.bootstrap-switch.bootstrap-switch-disabled .bootstrap-switch-handle-on,
+.bootstrap-switch.bootstrap-switch-readonly .bootstrap-switch-handle-on,
+.bootstrap-switch.bootstrap-switch-disabled .bootstrap-switch-handle-off,
+.bootstrap-switch.bootstrap-switch-readonly .bootstrap-switch-handle-off,
+.bootstrap-switch.bootstrap-switch-disabled .bootstrap-switch-label,
+.bootstrap-switch.bootstrap-switch-readonly .bootstrap-switch-label {
+  cursor: default !important;
+}
+.bootstrap-switch.bootstrap-switch-focused {
+  outline: 0;
+}
+.bootstrap-switch .bootstrap-switch-container {
+  display: inline-block;
+  position: relative;
+  width: 150%;
+  top: 0;
+  border-radius: 24px;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.bootstrap-switch .bootstrap-switch-handle-on,
+.bootstrap-switch .bootstrap-switch-handle-off,
+.bootstrap-switch .bootstrap-switch-label {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block !important;
+  height: 100%;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  font-size: 12px;
+  line-height: 24px;
+}
+.bootstrap-switch .bootstrap-switch-handle-on,
+.bootstrap-switch .bootstrap-switch-handle-off {
+  text-align: center;
+  z-index: 1;
+  width: 50%;
+}
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-primary,
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-primary {
+  color: rgba(255, 255, 255, 0.8);
+  background: #ff742c;
+  box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+}
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-info,
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-info {
+  color: rgba(255, 255, 255, 0.8);
+  background: #00bcd4;
+  box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+}
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-success,
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-success {
+  color: rgba(255, 255, 255, 0.8);
+  background: #8bc34a;
+  box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+}
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-warning,
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-warning {
+  background: #ffc107;
+  color: rgba(255, 255, 255, 0.8);
+  box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+}
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-danger,
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-danger {
+  color: rgba(255, 255, 255, 0.8);
+  background: #e51c23;
+  box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+}
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-default,
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-default {
+  color: #9e9e9e;
+  background: #e0e0e0;
+  box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+}
+.bootstrap-switch .bootstrap-switch-handle-on {
+  border-bottom-left-radius: 24px;
+  border-top-left-radius: 24px;
+  padding-right: 12.499999999875%;
+}
+.bootstrap-switch .bootstrap-switch-handle-off {
+  border-bottom-right-radius: 24px;
+  border-top-right-radius: 24px;
+  padding-left: 12.499999999875%;
+}
+.bootstrap-switch .bootstrap-switch-label {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  z-index: 100;
+  position: absolute;
+  border-radius: 50% !important;
+  width: 33.333333333%;
+  margin-left: -16.66666667%;
+  margin-right: -16.66666667%;
+  color: #616161;
+  background: #fafafa;
+  line-height: 24px;
+  box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, 0.1), 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+}
+.bootstrap-switch input[type='radio'],
+.bootstrap-switch input[type='checkbox'] {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  z-index: -1;
+}
